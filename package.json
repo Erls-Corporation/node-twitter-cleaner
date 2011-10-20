@@ -1,0 +1,12 @@
+{
+  "author": "Edward Hotchkiss <e@ingk.com>",
+  "name": "node-twitter-cleaner",
+  "description": "Deletes all Tweets from your Twitter account. A Clean Sweep.",
+  "version": "0.0.1",
+  "dependencies" : {
+    "twitter":""
+  },
+  "engines": { 
+    "node": ">= 0.4.11 < 0.5.0"
+  }
+}
