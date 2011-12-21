@@ -9,6 +9,22 @@
 $ npm install node-twitter-cleaner
 ```
 
+## Example Usage
+
+```javascript
+
+var nodeTwitterCleaner = require('node-twitter-cleaner');
+
+var cleaner = new nodeTwitterCleaner({
+	key, 
+	keySecret, 
+	accessToken, 
+	accessTokenSecret
+});
+
+/* EOF */
+```
+
 ## License (MIT)
 
 Copyright (c) 2011, Edward Hotchkiss.
