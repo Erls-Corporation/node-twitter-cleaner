@@ -1,12 +1,23 @@
 {
-  "author": "Edward Hotchkiss <e@ingk.com>",
-  "name": "node-twitter-cleaner",
-  "description": "Deletes all Tweets from your Twitter account. A Clean Sweep.",
-  "version": "0.0.1",
-  "dependencies" : {
+  "author":"Edward Hotchkiss <e@ingk.com>",
+  "name":"node-twitter-cleaner",
+  "description":"NodeJS powered Twitter (Tweet) Cleaner. Removes most recent 200 tweets.",
+  "version":"0.0.1",
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/edwardhotchkiss/node-twitter-cleaner.git"
+  },
+  "keywords":["twitter","cleaner","removal","delete"],
+  "engines":{
+    "node":">= 0.6.6 < 0.8.0"
+  },
+  "dependencies":{
     "twitter":""
   },
-  "engines": { 
-    "node": ">= 0.4.11 < 0.5.0"
-  }
+  "devDependencies":{},
+  "main":"./lib/node-twitter-cleaner.js",
+  "licenses":[{
+    "type":"MIT",
+    "url":"http://github.com/edwardhotchkiss/node-twitter-cleaner/LICENSE"
+  }]
 }
